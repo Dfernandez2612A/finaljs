@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cady Friend</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand disabled" href="#">Candy Fried</a>
+     <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+          </li> 
+        </ul>-->
+      </div>
+   </div>
+   </nav>
+  <section class="linea1">
+    <div class="card" id="card1" style="width: 18rem;" >
+      <img src="./img/collar1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5 class="card-title">Collar Perro pequeño</h5>
+          <p class="card-text">$10.000</p>
+          <a href="#" class="btn btn-primary" id="boton1">Comprar</a>
+      </div>
+    </div> 
+    <div class="card" id="card2" style="width: 18rem;">
+      <img src="./img/collar2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5 class="card-title">Collar corbatin</h5>
+          <p class="card-text">$13.000</p>
+          <a href="#" class="btn btn-primary" id="boton2">Comprar</a>
+      </div>
+    </div> 
+    <div class="card" id="card3" style="width: 18rem;">
+      <img src="./img/collar3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5 class="card-title">Collar iluminado</h5>
+          <p class="card-text">$20.000</p>
+          <a href="#" class="btn btn-primary" id="boton3">Comprar</a>
+      </div>
+    </div> 
+  </section>
+  <section class="linea2">
+    <div class="card" id="card4" style="width: 18rem;">
+      <img src="./img/collar4.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+          <h5 class="card-title">Collar antimordida</h5>
+          <p class="card-text">$15.000</p>
+          <a href="#" class="btn btn-primary" id="boton4">Comprar</a>
+      </div>
+    </div> 
+    <div class="card" id="card5" style="width: 18rem;">
+      <img src="./img/collar5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5 class="card-title">Pechera grande</h5>
+          <p class="card-text">$25.000</p>
+          <a href="#" class="btn btn-primary" id="boton5">Comprar</a>
+      </div>
+    </div> 
+    <div class="card" id="card6" style="width: 18rem;">
+      <img src="./img/collar6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5 class="card-title">Pechera pequeña</h5>
+          <p class="card-text">$18.000</p>
+          <a href="#" class="btn btn-primary" id="boton6">Comprar</a>
+      </div>
+    </div> 
+  </section>
+
+  <div class="d-grid gap-2 d-md-block" id="botones">
+    <button class="btn btn-primary" type="button" id="boton_ver">Ver Carrito</button>
+    <!-- <a href="./pages/formulario.html" class="btn btn-primary" id="boton7">Confirmar compra</a> -->
+    <button class="btn btn-primary" type="button" id="limpiar">Limpiar Carrito</button>
+    <button class="btn btn-primary" type="button" id="confirmar">Confirmar compra</button>
+  </div>
+
+  <div id="datos"></div>
+  <div id="total"></div>
+  
+  <script src="./app.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</body>
+</html>

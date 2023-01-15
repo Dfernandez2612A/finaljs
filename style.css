@@ -1,0 +1,44 @@
+.linea1{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.linea2{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+#ver{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#botones{
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#formulario{
+    margin: 20px, 20px, 20px, 10px;
+    border: 2px;
+    display: flex;
+
+}
+
+.base{
+    background-color: aqua;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+h2{
+    margin-top: 40px;
+}
